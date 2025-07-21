@@ -34,7 +34,6 @@ document.addEventListener("keydown", (e)=>{
 
 const handleVolume = (e) =>{
     audio.volume = e.target.value;
-    console.log(e.target.value);
 }
 
 const showHideKeys = () =>{
